@@ -1,0 +1,13 @@
+---
+- name: Create user administration
+  hosts: all
+  tasks:
+    - name: User Creation
+      user:
+        name: Bhau12
+        password: test1
+        uid: 6754
+        comment: "Normal User"
+        shell: /bin/bash
+        home: /tmp/bhau12
+...
