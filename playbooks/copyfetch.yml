@@ -1,0 +1,17 @@
+---
+- name: copy file from 1 server to another
+  hosts: 172.31.34.71
+  tasks:
+    - name: fetch file from server1
+      fetch:
+        src: tata1
+        dest: /tmp
+- name: paste to another server
+  hosts: 172.31.35.77
+  tasks:
+    - name: paste to another server
+      copy:
+        src: /tmp/172.31.34.71/tata1
+        dest: /tmp 
+...          
+       

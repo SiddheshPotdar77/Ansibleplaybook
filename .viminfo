@@ -12,9 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1692292777,,"wq"
+|2,0,1692379628,,"wq"
 :q!
-|2,0,1692202912,,"q!"
+|2,0,1692377816,,"q!"
 
 # Search String History (newest to oldest):
 
@@ -27,233 +27,422 @@
 # Registers:
 ""-	CHAR	0
 	:
-|3,1,36,0,1,0,1692290820,":"
+|3,1,36,0,1,0,1692376930,":"
 
 # File marks:
-'0  15  17  ~/playbooks/copys1tois2.yml
-|4,48,15,17,1692292777,"~/playbooks/copys1tois2.yml"
-'1  8  7  ~/playbooks/copys1tois2.yml
-|4,49,8,7,1692292555,"~/playbooks/copys1tois2.yml"
-'2  8  7  ~/playbooks/copys1tois2.yml
-|4,50,8,7,1692292555,"~/playbooks/copys1tois2.yml"
-'3  16  2  ~/playbooks/copys1tois2.yml
-|4,51,16,2,1692292472,"~/playbooks/copys1tois2.yml"
-'4  16  2  ~/playbooks/copys1tois2.yml
-|4,52,16,2,1692292472,"~/playbooks/copys1tois2.yml"
-'5  9  2  ~/playbooks/copys1tois2.yml
-|4,53,9,2,1692292472,"~/playbooks/copys1tois2.yml"
-'6  9  2  ~/playbooks/copys1tois2.yml
-|4,54,9,2,1692292472,"~/playbooks/copys1tois2.yml"
-'7  36  36  ~/playbooks/tomcat.yml
-|4,55,36,36,1692291709,"~/playbooks/tomcat.yml"
-'8  32  36  ~/playbooks/tomcat.yml
-|4,56,32,36,1692291510,"~/playbooks/tomcat.yml"
-'9  32  36  ~/playbooks/tomcat.yml
-|4,57,32,36,1692291510,"~/playbooks/tomcat.yml"
+'0  12  14  ~/playbooks/loop4.yml
+|4,48,12,14,1692379628,"~/playbooks/loop4.yml"
+'1  27  2  ~/playbooks/loop4.yml
+|4,49,27,2,1692379577,"~/playbooks/loop4.yml"
+'2  27  2  ~/playbooks/loop4.yml
+|4,50,27,2,1692379577,"~/playbooks/loop4.yml"
+'3  29  29  ~/playbooks/loop3.yml
+|4,51,29,29,1692378366,"~/playbooks/loop3.yml"
+'4  26  18  ~/playbooks/loop3.yml
+|4,52,26,18,1692378109,"~/playbooks/loop3.yml"
+'5  26  18  ~/playbooks/loop3.yml
+|4,53,26,18,1692378109,"~/playbooks/loop3.yml"
+'6  31  12  ~/playbooks/loop3.yml
+|4,54,31,12,1692377982,"~/playbooks/loop3.yml"
+'7  31  12  ~/playbooks/loop3.yml
+|4,55,31,12,1692377982,"~/playbooks/loop3.yml"
+'8  31  12  ~/playbooks/loop3.yml
+|4,56,31,12,1692377982,"~/playbooks/loop3.yml"
+'9  31  12  ~/playbooks/loop3.yml
+|4,57,31,12,1692377982,"~/playbooks/loop3.yml"
 
 # Jumplist (newest first):
--'  15  17  ~/playbooks/copys1tois2.yml
-|4,39,15,17,1692292777,"~/playbooks/copys1tois2.yml"
--'  8  7  ~/playbooks/copys1tois2.yml
-|4,39,8,7,1692292646,"~/playbooks/copys1tois2.yml"
--'  8  7  ~/playbooks/copys1tois2.yml
-|4,39,8,7,1692292555,"~/playbooks/copys1tois2.yml"
--'  16  2  ~/playbooks/copys1tois2.yml
-|4,39,16,2,1692292526,"~/playbooks/copys1tois2.yml"
--'  9  2  ~/playbooks/copys1tois2.yml
-|4,39,9,2,1692292526,"~/playbooks/copys1tois2.yml"
--'  9  2  ~/playbooks/copys1tois2.yml
-|4,39,9,2,1692292472,"~/playbooks/copys1tois2.yml"
--'  1  0  ~/playbooks/copys1tois2.yml
-|4,39,1,0,1692292391,"~/playbooks/copys1tois2.yml"
--'  1  0  ~/playbooks/copys1tois2.yml
-|4,39,1,0,1692292391,"~/playbooks/copys1tois2.yml"
--'  1  0  ~/playbooks/copys1tois2.yml
-|4,39,1,0,1692292391,"~/playbooks/copys1tois2.yml"
--'  36  36  ~/playbooks/tomcat.yml
-|4,39,36,36,1692291709,"~/playbooks/tomcat.yml"
--'  36  36  ~/playbooks/tomcat.yml
-|4,39,36,36,1692291709,"~/playbooks/tomcat.yml"
--'  36  36  ~/playbooks/tomcat.yml
-|4,39,36,36,1692291709,"~/playbooks/tomcat.yml"
--'  36  36  ~/playbooks/tomcat.yml
-|4,39,36,36,1692291709,"~/playbooks/tomcat.yml"
--'  36  36  ~/playbooks/tomcat.yml
-|4,39,36,36,1692291709,"~/playbooks/tomcat.yml"
--'  36  36  ~/playbooks/tomcat.yml
-|4,39,36,36,1692291709,"~/playbooks/tomcat.yml"
--'  36  36  ~/playbooks/tomcat.yml
-|4,39,36,36,1692291709,"~/playbooks/tomcat.yml"
--'  36  36  ~/playbooks/tomcat.yml
-|4,39,36,36,1692291709,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291673,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291673,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291673,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291673,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291673,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291673,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291673,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291673,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291510,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291510,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291510,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291510,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291510,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291510,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291510,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291510,"~/playbooks/tomcat.yml"
--'  32  32  ~/playbooks/tomcat.yml
-|4,39,32,32,1692291359,"~/playbooks/tomcat.yml"
--'  32  32  ~/playbooks/tomcat.yml
-|4,39,32,32,1692291359,"~/playbooks/tomcat.yml"
--'  32  32  ~/playbooks/tomcat.yml
-|4,39,32,32,1692291359,"~/playbooks/tomcat.yml"
--'  32  32  ~/playbooks/tomcat.yml
-|4,39,32,32,1692291359,"~/playbooks/tomcat.yml"
--'  32  32  ~/playbooks/tomcat.yml
-|4,39,32,32,1692291359,"~/playbooks/tomcat.yml"
--'  32  32  ~/playbooks/tomcat.yml
-|4,39,32,32,1692291359,"~/playbooks/tomcat.yml"
--'  32  32  ~/playbooks/tomcat.yml
-|4,39,32,32,1692291359,"~/playbooks/tomcat.yml"
--'  32  32  ~/playbooks/tomcat.yml
-|4,39,32,32,1692291359,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291179,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291179,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291179,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291179,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291179,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291179,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291179,"~/playbooks/tomcat.yml"
--'  32  36  ~/playbooks/tomcat.yml
-|4,39,32,36,1692291179,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291159,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291022,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291022,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291022,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291022,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291022,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291022,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291022,"~/playbooks/tomcat.yml"
--'  36  31  ~/playbooks/tomcat.yml
-|4,39,36,31,1692291022,"~/playbooks/tomcat.yml"
--'  29  15  ~/playbooks/tomcat.yml
-|4,39,29,15,1692290915,"~/playbooks/tomcat.yml"
--'  29  15  ~/playbooks/tomcat.yml
-|4,39,29,15,1692290915,"~/playbooks/tomcat.yml"
--'  29  15  ~/playbooks/tomcat.yml
-|4,39,29,15,1692290915,"~/playbooks/tomcat.yml"
--'  29  15  ~/playbooks/tomcat.yml
-|4,39,29,15,1692290915,"~/playbooks/tomcat.yml"
--'  29  15  ~/playbooks/tomcat.yml
-|4,39,29,15,1692290915,"~/playbooks/tomcat.yml"
--'  29  15  ~/playbooks/tomcat.yml
-|4,39,29,15,1692290915,"~/playbooks/tomcat.yml"
--'  29  15  ~/playbooks/tomcat.yml
-|4,39,29,15,1692290915,"~/playbooks/tomcat.yml"
--'  29  15  ~/playbooks/tomcat.yml
-|4,39,29,15,1692290915,"~/playbooks/tomcat.yml"
--'  29  15  ~/playbooks/tomcat.yml
-|4,39,29,15,1692290915,"~/playbooks/tomcat.yml"
--'  29  15  ~/playbooks/tomcat.yml
-|4,39,29,15,1692290915,"~/playbooks/tomcat.yml"
--'  29  15  ~/playbooks/tomcat.yml
-|4,39,29,15,1692290915,"~/playbooks/tomcat.yml"
--'  29  15  ~/playbooks/tomcat.yml
-|4,39,29,15,1692290915,"~/playbooks/tomcat.yml"
--'  29  15  ~/playbooks/tomcat.yml
-|4,39,29,15,1692290915,"~/playbooks/tomcat.yml"
--'  29  15  ~/playbooks/tomcat.yml
-|4,39,29,15,1692290915,"~/playbooks/tomcat.yml"
--'  29  15  ~/playbooks/tomcat.yml
-|4,39,29,15,1692290915,"~/playbooks/tomcat.yml"
--'  29  15  ~/playbooks/tomcat.yml
-|4,39,29,15,1692290915,"~/playbooks/tomcat.yml"
--'  29  15  ~/playbooks/tomcat.yml
-|4,39,29,15,1692290915,"~/playbooks/tomcat.yml"
--'  29  15  ~/playbooks/tomcat.yml
-|4,39,29,15,1692290915,"~/playbooks/tomcat.yml"
--'  29  15  ~/playbooks/tomcat.yml
-|4,39,29,15,1692290915,"~/playbooks/tomcat.yml"
+-'  12  14  ~/playbooks/loop4.yml
+|4,39,12,14,1692379628,"~/playbooks/loop4.yml"
+-'  27  2  ~/playbooks/loop4.yml
+|4,39,27,2,1692379606,"~/playbooks/loop4.yml"
+-'  27  2  ~/playbooks/loop4.yml
+|4,39,27,2,1692379577,"~/playbooks/loop4.yml"
+-'  1  0  ~/playbooks/loop4.yml
+|4,39,1,0,1692379220,"~/playbooks/loop4.yml"
+-'  1  0  ~/playbooks/loop4.yml
+|4,39,1,0,1692379220,"~/playbooks/loop4.yml"
+-'  29  29  ~/playbooks/loop3.yml
+|4,39,29,29,1692378366,"~/playbooks/loop3.yml"
+-'  29  29  ~/playbooks/loop3.yml
+|4,39,29,29,1692378366,"~/playbooks/loop3.yml"
+-'  29  29  ~/playbooks/loop3.yml
+|4,39,29,29,1692378366,"~/playbooks/loop3.yml"
+-'  29  29  ~/playbooks/loop3.yml
+|4,39,29,29,1692378366,"~/playbooks/loop3.yml"
+-'  26  18  ~/playbooks/loop3.yml
+|4,39,26,18,1692378250,"~/playbooks/loop3.yml"
+-'  26  18  ~/playbooks/loop3.yml
+|4,39,26,18,1692378250,"~/playbooks/loop3.yml"
+-'  26  18  ~/playbooks/loop3.yml
+|4,39,26,18,1692378250,"~/playbooks/loop3.yml"
+-'  26  18  ~/playbooks/loop3.yml
+|4,39,26,18,1692378250,"~/playbooks/loop3.yml"
+-'  26  18  ~/playbooks/loop3.yml
+|4,39,26,18,1692378109,"~/playbooks/loop3.yml"
+-'  26  18  ~/playbooks/loop3.yml
+|4,39,26,18,1692378109,"~/playbooks/loop3.yml"
+-'  26  18  ~/playbooks/loop3.yml
+|4,39,26,18,1692378109,"~/playbooks/loop3.yml"
+-'  26  18  ~/playbooks/loop3.yml
+|4,39,26,18,1692378109,"~/playbooks/loop3.yml"
+-'  31  12  ~/playbooks/loop3.yml
+|4,39,31,12,1692378085,"~/playbooks/loop3.yml"
+-'  31  12  ~/playbooks/loop3.yml
+|4,39,31,12,1692378085,"~/playbooks/loop3.yml"
+-'  31  12  ~/playbooks/loop3.yml
+|4,39,31,12,1692378085,"~/playbooks/loop3.yml"
+-'  31  12  ~/playbooks/loop3.yml
+|4,39,31,12,1692378085,"~/playbooks/loop3.yml"
+-'  31  12  ~/playbooks/loop3.yml
+|4,39,31,12,1692378085,"~/playbooks/loop3.yml"
+-'  31  12  ~/playbooks/loop3.yml
+|4,39,31,12,1692378085,"~/playbooks/loop3.yml"
+-'  31  12  ~/playbooks/loop3.yml
+|4,39,31,12,1692378085,"~/playbooks/loop3.yml"
+-'  31  12  ~/playbooks/loop3.yml
+|4,39,31,12,1692378085,"~/playbooks/loop3.yml"
+-'  31  12  ~/playbooks/loop3.yml
+|4,39,31,12,1692377982,"~/playbooks/loop3.yml"
+-'  31  12  ~/playbooks/loop3.yml
+|4,39,31,12,1692377982,"~/playbooks/loop3.yml"
+-'  31  12  ~/playbooks/loop3.yml
+|4,39,31,12,1692377982,"~/playbooks/loop3.yml"
+-'  31  12  ~/playbooks/loop3.yml
+|4,39,31,12,1692377982,"~/playbooks/loop3.yml"
+-'  30  28  ~/playbooks/loop3.yml
+|4,39,30,28,1692377927,"~/playbooks/loop3.yml"
+-'  30  28  ~/playbooks/loop3.yml
+|4,39,30,28,1692377927,"~/playbooks/loop3.yml"
+-'  30  28  ~/playbooks/loop3.yml
+|4,39,30,28,1692377927,"~/playbooks/loop3.yml"
+-'  30  28  ~/playbooks/loop3.yml
+|4,39,30,28,1692377927,"~/playbooks/loop3.yml"
+-'  30  28  ~/playbooks/loop3.yml
+|4,39,30,28,1692377927,"~/playbooks/loop3.yml"
+-'  30  28  ~/playbooks/loop3.yml
+|4,39,30,28,1692377927,"~/playbooks/loop3.yml"
+-'  30  28  ~/playbooks/loop3.yml
+|4,39,30,28,1692377927,"~/playbooks/loop3.yml"
+-'  30  28  ~/playbooks/loop3.yml
+|4,39,30,28,1692377927,"~/playbooks/loop3.yml"
+-'  30  28  ~/playbooks/loop3.yml
+|4,39,30,28,1692377927,"~/playbooks/loop3.yml"
+-'  30  28  ~/playbooks/loop3.yml
+|4,39,30,28,1692377927,"~/playbooks/loop3.yml"
+-'  30  28  ~/playbooks/loop3.yml
+|4,39,30,28,1692377927,"~/playbooks/loop3.yml"
+-'  30  28  ~/playbooks/loop3.yml
+|4,39,30,28,1692377927,"~/playbooks/loop3.yml"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  48  0  /etc/ansible/hosts
+|4,39,48,0,1692377816,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
+-'  1  0  /etc/ansible/hosts
+|4,39,1,0,1692377756,"/etc/ansible/hosts"
 
 # History of marks within files (newest to oldest):
+
+> ~/playbooks/loop4.yml
+	*	1692379627	0
+	"	12	14
+	^	12	15
+	.	12	14
+	+	2	26
+	+	5	27
+	+	10	32
+	+	13	11
+	+	12	14
+	+	13	39
+	+	27	7
+	+	15	11
+	+	17	14
+	+	20	25
+	+	23	24
+	+	20	24
+	+	22	23
+	+	23	24
+	+	24	17
+	+	26	28
+	+	27	2
+	+	12	14
+
+> ~/playbooks/loop3.yml
+	*	1692378365	0
+	"	29	29
+	^	26	19
+	.	26	19
+	+	7	26
+	+	8	27
+	+	9	34
+	+	10	17
+	+	11	42
+	+	12	47
+	+	13	25
+	+	17	34
+	+	19	21
+	+	26	24
+	+	27	28
+	+	26	20
+	+	27	32
+	+	28	16
+	+	29	42
+	+	30	32
+	+	28	16
+	+	29	37
+	+	30	37
+	+	27	22
+	+	29	34
+	+	30	10
+	+	29	30
+	+	30	35
+	+	31	2
+	+	21	27
+	+	23	17
+	+	29	17
+	+	30	17
+	+	29	28
+	+	30	28
+	+	12	46
+	+	26	19
+
+> /etc/ansible/hosts
+	*	1692377812	0
+	"	48	0
+	^	1	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~/playbooks/loop2.yml
+	*	1692376287	0
+	"	13	19
+	^	13	20
+	.	13	19
+	+	7	26
+	+	8	27
+	+	9	34
+	+	10	17
+	+	11	39
+	+	12	39
+	+	13	38
+	+	14	0
+	+	11	29
+	+	13	18
+	+	11	17
+	+	12	19
+	+	13	18
+	+	12	31
+	+	11	30
+	+	13	30
+	+	11	31
+	+	12	32
+	+	13	19
+
+> ~/playbooks/loops1.yml
+	*	1692375483	0
+	"	14	2
+	^	14	3
+	.	14	2
+	+	7	24
+	+	10	17
+	+	10	16
+	+	11	0
+	+	11	13
+	+	14	2
+
+> ~/playbooks/host_vars/172.31.35.77
+	*	1692374699	0
+	"	8	2
+	^	8	3
+	.	8	2
+	+	5	16
+	+	7	17
+	+	8	2
+
+> ~/playbooks/host2.yml
+	*	1692374582	0
+	"	12	20
+	^	12	21
+	.	7	19
+	+	6	32
+	+	8	25
+	+	9	20
+	+	10	21
+	+	11	22
+	+	12	24
+	+	13	0
+	+	7	19
+
+> ~/playbooks/host_scope/172.31.35.77
+	*	1692374382	0
+	"	8	2
+	^	8	3
+	.	5	10
+	+	7	13
+	+	8	2
+	+	2	5
+	+	5	0
+	+	6	0
+	+	7	0
+	+	5	10
+	+	2	5
+	+	4	10
+	+	4	6
+	+	5	10
+
+> ~/playbooks/172.31.35.77
+	*	1692374108	0
+	"	1	0
+
+> ~/playbooks/host1.yml
+	*	1692372678	0
+	"	10	0
+	^	10	0
+	.	10	0
+	+	7	21
+	+	8	22
+	+	9	29
+	+	10	0
+
+> ~/playbooks/group_vars/webserver
+	*	1692372542	0
+	"	5	2
+	^	5	3
+	.	5	2
+	+	3	1
+	+	2	1
+	+	5	2
+
+> ~/playbooks/copyfetch.yml
+	*	1692370653	0
+	"	14	12
+	^	14	13
+	.	14	13
+	+	4	43
+	+	17	5
+	+	5	35
+	+	16	2
+	+	9	31
+	+	13	11
+	+	15	17
+	+	14	13
+
+> ~/copyfetch.yml
+	*	1692370459	0
+	"	1	0
 
 > ~/playbooks/copys1tois2.yml
 	*	1692292776	0

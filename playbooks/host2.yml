@@ -1,0 +1,13 @@
+---
+- name: playbook for single server
+  hosts: 172.31.35.77
+  tasks:
+    - name: user administrator
+      user:
+        name: "{{a}}"
+        password: "{{b}}"
+        uid: "{{c}}"
+        home: "{{d}}"
+        shell: "{{e}}"
+        comment: "{{f}}"
+...

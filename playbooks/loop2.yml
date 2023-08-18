@@ -1,0 +1,14 @@
+---
+- name: implement loop
+  hosts: all
+  tasks:
+    - name: Uninstall software
+      apt:
+        name: "{{item.a}}"
+        state: "{{item.b}}"
+        update_cache: "{{item.c}}"
+      with_items:
+        - {a: git , b: present , c: no}
+        - {a: maven , b: absent , c: no} 
+        - {a: tree , b: absent , c: no} 
+...

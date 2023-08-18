@@ -1,0 +1,31 @@
+---
+- name: configute tomcat
+  hosts: all
+  tasks:
+    - name: configure tomcat
+      apt:
+        name: "{{item.a}}"
+        state: "{{item.b}}"
+        update_cache: "{{item.c}}"
+      with_items:
+        - {a: tomcat9, b: present, c: yes}
+        - {a: tomcat9-admin, b: present, c: yes} 
+    - name: copy xml file
+      copy:
+        src: tomcat-users.xml
+        dest: /etc/tomcat9
+    - name: restart tomcat service
+      service:
+        name: tomcat9
+        state: restarted
+    - name: pause for 1 min
+      pause:
+        minutes: 1      
+    - name: check url response on server
+      uri:
+       url: "{{item}}"
+       status_code: 200
+      with_items:
+        - http://172.31.34.71:8080
+        - http://172.31.35.77:8080
+...          

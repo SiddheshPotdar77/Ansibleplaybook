@@ -144,3 +144,66 @@ anible-playbook usercreat.yml -b
 cd
 anible-playbook usercreat.yml -b
 exit
+cd playbooks/
+ls
+ansible-playbook usercreat.yml -b
+ssh 172.31.34.71
+vim apache.yml
+ansible-playbook apache.yml -b
+vim apache.yml
+ansible-playbook apache.yml -b
+vim tomcat.yml
+ls
+vim tomcat-users.xml
+vim tomcat.yml
+ansible-playbook tomcat.yml
+vim tomcat.yml
+ansible-playbook tomcat.yml
+vim tomcat.yml
+ls
+ansible all -m apt -a 'name=tomcat9 state=absent' -b
+ansible-playbook tomcat.yml
+vim tomcat.yml
+ansible-playbook tomcat.yml -b
+vim tomcat.yml
+ansible-playbook tomcat.yml -b
+vim tomcat.yml
+ansible-playbook tomcat.yml -b
+vim tomcat.yml
+ansible-playbook tomcat.yml -b
+vim tomcat.yml
+ansible-playbook tomcat.yml -b
+cd
+ssh 172.31.34.71
+cd playbooks/
+vim copys1tois2.yml
+ansible-playbook copys1tos2.yml -b
+ansible-playbook copys1tois2.yml -b
+vim copys1tois2.yml
+ansible-playbook copys1tois2.yml -b
+cd /tmp
+ls
+cd 172.31.34.71/
+ls
+pwd
+cd
+cd playbooks/
+vim copys1tois2.yml
+ansible-playbook copys1tois2.yml -b
+ssh 172.31.35.77
+cd
+git login
+git --help
+ls
+git status
+git init
+git add .
+git status
+git commit -m 'a'
+git remote add origin https://github.com/SiddheshPotdar77/Ansibleplaybook.git
+git push -u origin master
+cd playbooks/
+ls
+vim copyfetch.yml
+cd
+ssh 172.31.34.71
