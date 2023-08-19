@@ -1,0 +1,21 @@
+---
+- name: Erorr Handling in ansible
+  hosts: all
+  tasks:
+    - block:
+        - name: Install git using apt
+          apt:
+            name: git
+            state: present
+            update_caches: yes
+      rescue:
+        - name: install git using yum
+          yum:
+            name: git
+            state: present
+            update_cache: yes
+      always:
+        - name: to print success if al install
+          debug:
+            msg: "Installation success"
+...             

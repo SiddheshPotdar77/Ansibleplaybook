@@ -1,0 +1,12 @@
+---
+- name: implement when condition
+  hosts: all
+  vars: 
+   - a: 230
+  tasks:
+    - name: implement when contion
+      copy:
+        src: tomcat-users.xml
+        dest: /tmp
+      when: a==10
+...        

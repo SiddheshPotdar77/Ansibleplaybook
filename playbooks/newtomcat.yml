@@ -1,0 +1,33 @@
+---
+- name: Implement handler in tomcat file
+  hosts: all
+  tasks:
+    - name: install tomcat
+      apt:
+        name: "{{item.a}}"
+        state: "{{item.b}}"
+        update_cache: "{{item.c}}"
+      with_items:
+         - {a: tomcat9, b: present, c: yes}
+         - {a: tomcat9-admin, b: present, c: no}
+    - name: copy tomcat-users.xml file
+      copy:
+        src: tomcat-users.xml
+        dest: /etc/tomcat9
+      notify: restart tomcat
+  handlers:
+    - name: restart tomcat
+      service:
+        name: tomcat9
+        state: restarted
+    - name: wait for 1 minutes
+      pause:
+        minutes: 1      
+    - name: url response on server
+      uri:
+        url: "{{item}}"
+        status_code: 200
+      with_items:
+        - http://172.31.34.71:8080
+        - http://172.31.35.77:8080
+...          

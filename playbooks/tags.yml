@@ -1,0 +1,21 @@
+---
+- name: implemets tags
+  hosts: all
+  gather_facts: false
+  become: yes
+  tasks:
+    - name : create users
+      user:
+        name: t1
+        password: t1
+      tags: user_create
+    - name: install git
+      apt:
+        name: git
+        state: present
+      tags: git_install
+    - name: copy file 
+      copy:
+        src: tomcat-users.xml
+        dest: /tmp
+...          
