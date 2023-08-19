@@ -1,0 +1,17 @@
+---
+- name: Check if file is executable or not
+  hosts: all
+  tasks:
+    - name: check file
+      stat:
+        path: /tmp/gh2
+      register: a
+    - name: check output
+      debug:
+        var: a
+    - name: check if file is executable
+      file:
+        name: /tmp/gh2
+        state: absent
+      when: a.stat.executable== true
+...      

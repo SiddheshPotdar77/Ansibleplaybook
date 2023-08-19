@@ -1,0 +1,12 @@
+---
+- name: install apache2
+  hosts: all
+  tasks:
+    - name: install apache2 software
+      include: "{{item}}"
+      with_items:
+        - installapache2.yml
+        - chnageindexfile.yml
+        - restart.yml
+        - checkurlresponse.yml
+...          

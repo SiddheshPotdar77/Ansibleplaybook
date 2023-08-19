@@ -1,0 +1,6 @@
+---
+- name: change index.html file
+  copy:
+    content: "Sonar Siddhesh"
+    dest: /var/www/html/index.html
+...      
