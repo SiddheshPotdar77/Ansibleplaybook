@@ -1,0 +1,39 @@
+---
+- name: Install new software on dev server
+  hosts: jenkinsserver
+  task:
+    - name: install required software
+      apt:
+        name: "{{item.a}}"
+        state: present
+        update_cache: "{{item.b}}"
+      with_items:
+        - {a: openjdk-11-jdk, b: yes}
+        - {a: git, b: no}
+        - {a: maven, b: no} 
+- name: install new software on qa server 
+  hosts: QAserver
+  task:
+    - name: install required software
+      apt:
+        name: "{{item.a}}"
+        state: present
+        update_cache: "{{item.b}}"
+      with_items:
+        - {a: openjdk-11-jdk, b: yes}
+        - {a: git, b: no}
+        - {a: tomcat9, b: yes}
+        - {a: tomcat9-admin, b: no}
+
+- name: install new software on prod server
+  hosts: prodserver
+  task:
+    - name: install required software
+      apt:
+        name: "{{item.a}}"
+        state: present
+        update_cache: "{{item.b}}"
+      with_items:
+        - {a: tomcat9, b: yes}
+        - {a: tomcat9-admin, b: no} 
+...          
