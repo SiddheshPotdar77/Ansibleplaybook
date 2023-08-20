@@ -207,3 +207,427 @@ ls
 vim copyfetch.yml
 cd
 ssh 172.31.34.71
+cd playbooks/
+ls
+vim copyfetch.yml
+ansible-playbook copyfetch.yml -b
+cd
+cd /tmp
+ls
+cd 172.31.34.71/
+ls
+pwd
+cd
+vim copyfetch.yml
+cd playbooks/
+ls
+vim copyfetch.yml
+ansible-playbook copyfetch.yml -b
+vim copyfetch.yml
+ansible-playbook copyfetch.yml -b
+ssh 172.31.35.77
+cd
+sudo vim /ec/ansible/hosts
+sudo vim /etc/ansible/hosts
+cd playbooks/
+mkdir group_vars
+cd group_vars
+vim webserver
+ls
+cd
+cd playbooks/
+vim host1.yml
+ansible-playbook host1.yml -b
+mkdir host_scope
+ls
+cd host_scope/
+vim 172.31.35.77
+cd ..
+vim host2.yml
+ansible-playbook hosy2.yml -b
+ansible-playbook host2.yml -b
+vim host2.yml
+cd host_scope/
+ls
+vim 172.31.35.77
+cd ..
+vim host2.yml
+ansible-playbook host2.yml -b
+vim host2.yml
+ansible-playbook host2.yml -b
+vim host2.yml
+cd host_scope/
+vim 172.31.35.77
+cd ..
+ansible-playbook host2.yml -b
+vim host2.yml
+cd host_scope/
+vim 172.31.35.77
+cd ..
+ansible-playbook host2.yml -b
+vim 172.31.35.77
+cd host_scope/
+vim 172.31.35.77
+cd ..
+vim host2.yml
+ansible-playbook host2.yml -b
+ls
+cd host_scope/
+ls
+vim 172.31.35.77
+cd ..
+vim host2.yml
+ansible-playbook host2.yml -b
+vim host2.yml
+ls
+mkdir host_vars
+cd host_vars/
+vim 172.31.35.77 
+cd ..
+ansible-playbook host2.yml -b
+ssh 172.31.35.77
+vim loops1.yml
+ansible-playbook loops1.yml -b
+vim loop2.yml
+ansible-playbook loop2.yml -b
+vim loop2.yml
+ansible-playbook loop2.yml -b
+wq
+vim loop2.yml
+ansible-playbook loop2.yml -b
+wq
+vim loop2.yml
+wq
+vim loop2.yml
+ansible-playbook loop2.yml -b
+vim loop3.yml
+ansible-playbook loop3.yml -b
+wq
+vim loop3.yml
+ansible-playbook loop3.yml -b
+vim loop3.yml
+ansible-playbook loop3.yml -b
+vim loop3.yml
+ansible-playbook loop3.yml -b
+vim loop3.yml
+ansible-playbook loop3.yml -b
+vim loop3.yml
+ansible-playbook loop3.yml -b
+ansible all -m apt -a 'name=firewalld state=absent' -b
+ansible-playbook loop3.yml -b
+cd /etc/ansible/hosts
+vim /etc/ansible/hosts
+sudo vim /etc/ansible/hosts
+ansible-playbook loop3.yml -b
+vim loop3.yml
+ansible-playbook loop3.yml -b
+vim loop3.yml
+ansible-playbook loop3.yml -b
+vim loop3.yml
+vim loop4.yml
+ansible-playbook loop4.yml -b
+vim loop4.yml
+ansible-playbook loop4.yml -b
+cd
+git push https://github.com/SiddheshPotdar77/Ansibleplaybook.git
+git pull https://github.com/SiddheshPotdar77/Ansibleplaybook.git
+git pull
+git init
+git status
+git add .
+git commit -m "b"
+git pull https://github.com/SiddheshPotdar77/Ansibleplaybook.git
+git pull
+git push https://github.com/SiddheshPotdar77/Ansibleplaybook.git
+cd playbooks/
+vim handle.yml
+ansible-playbook handle.yml
+wq
+vim handle.yml
+ansible-playbook handle.yml
+vim handle.yml
+ansible all -m apt -a 'name=apache2 state=absent' -b
+ansible-playbook handle.yml -b
+vim handle.yml
+ansible all -m apt -a 'name=apache2 state=absent' -b
+ansible-playbook handle.yml -b
+ansible all -m apt -a 'name=tomcat9 state=absent' -b
+ansible all -m apt -a 'name=tomcat9-admin state=absent' -b
+vim newtomcat.yml
+ansible-playbook newtomcat.yml -b
+vim newtomcat.yml
+ansible-playbook newtomcat.yml -b
+ansible all -m apt -a 'name=tomcat9-admin state=absent' -b
+ansible all -m apt -a 'name=tomcat9 state=absent' -b
+ansible-playbook newtomcat.yml -b
+vim newtomcat.yml
+ssh 172.31.35.77
+ls
+sudo vim tomcat-users.xml
+vim newtomcat.yml
+ansible all -m apt -a 'name=tomcat9-admin state=absent' -b
+ansible all -m apt -a 'name=tomcat9 state=absent' -b
+ansible-playbook newtomcat.yml -b
+ssh 172.31.35.77
+ssh 172.31.34.71
+ansible all -m apt -a 'name=tomcat9 state=absent' -b
+ansible all -m apt -a 'name=tomcat9-admin state=absent' -b
+ansible-playbook newtomcat.yml -b
+vim newtomcat.yml
+ls
+vim handle.yml
+vim newtomcat.yml
+vim errorhandle.yml
+ansible-playbook errorhandle.yml -b
+vim errorhandle.yml
+ansible-playbook errorhandle.yml -b
+ansible all -m apt - a 'name=git state=absent' -b
+ansible all -m apt -a 'name=git state=absent' -b
+ansible-playbook errorhandle.yml -b
+vim errorhandle.yml
+ansible-playbook errorhandle.yml -b
+vim errorhandle.yml
+ansible all -m apt -a 'name=git state=absent update_cache=yes' -b
+ansible-playbook errorhandle.yml -b
+ansible-vault create v1.yml
+vim v1.yml
+ansible-vault view v1
+ansible-vault view v1.yml
+ansible-vault edit v1.yml
+vim v2.yml
+ansible-vault encrypt v2.yml
+vim v2.yml
+ansible-vault rekey v2.yml
+vim v2.yml
+vim tags.yml
+anible playbook tags.yml --tags="tagged" -b
+anible-playbook tags.yml --tags="tagged" -b
+ansible-playbook tags.yml --tags="tagged" -b
+
+vim tags.yml
+ansible-playbook tags.yml --tags="tagged"
+vim tags.yml
+ansible-playbook tags.yml --tags="tagged"
+vim when.yml
+ansible-playbook when.yml -b
+vim when.yml
+ansible-playbook when.yml -b
+vim when.yml
+ansible-playbook when.yml -b
+vim filecheck.yml
+ansible-playbook filecheck.yml -b
+vim filecheck.yml
+ansible-playbook filecheck.yml -b
+vim filecheck.yml
+ansible-playbook filecheck.yml -b
+ssh 172.31.34.71
+ansible-playbook filecheck.yml -b
+vim filecheck.yml
+ansible-playbook filecheck.yml -b
+vim filecheck.yml
+ansible-playbook filecheck.yml -b
+vim filecheck.yml
+ansible-playbook filecheck.yml -b
+vim filecheck.yml
+ansible 172.31.34.71 -m file -a 'name=/home/ubuntu/f1 state=touch' -b
+vim filecheck.yml
+ansible-playbook filecheck.yml -b
+vim filecheck.yml
+ansible-playbook filecheck.yml -b
+git add .
+git commit -m "c"
+git push
+ansible all -m file -a 'name=/tmp/gh1 state=touch' -b
+ansible 172.31.34.71 -m file -a 'name=/tmp/gh1 mode=770' -b
+ansible all -m file -a 'name=/tmp/gh1 state=touch' -b
+cd downloads/
+cd playbooks/
+ls
+vim excute.yml
+ansible-playbook execute.yml -b
+ansible-playbook excute.yml -b
+vim excute.yml
+ansible-playbook excute.yml -b
+vim excute.yml
+ansible-playbook excute.yml -b
+vim excute.yml
+ansible-playbook excute.yml -b
+ansible all -m file -a 'name=/tmp/gh2 state=touch' -b
+ansible 172.31.34.71 -m file -a 'name=/tmp/gh2 mode=770' -b
+vim excute.yml
+ansible-playbook excute.yml -b
+ansible 172.31.34.71 -m apt -a 'name=tomcat9 state=absent' -b
+ansible all -m apt -a 'name=tomcat9 state=absent' -b
+ansible all -m apt -a 'name=tomcat9-admin state=absent' -b
+ansible all -m apt -a 'name=git state=absent' -b
+ansible all -m apt -a 'name=maven state=absent' -b
+cd /etc/ansible/hosts/
+sudo vim /etc/ansible/hosts
+vim cicd.yml
+ansible-playbook cicd.yml -b
+vim cicd.yml
+ansible-playbook cicd.yml -b
+vim cicd.yml
+ansible-playbook cicd.yml -b
+ssh 172.31.34.71
+vim cicd.yml
+ansible-playbook cicd.yml -b
+vim child1.yml
+vim parent1.yml
+ansible-playbook parent1.yml -b
+vim parent1.yml
+ansible-playbook parent1.yml -b
+vim installapache2.yml
+vim chnageindexfile.yml
+vim restart.yml
+vim checkurlresponse.yml
+vim apache2.yml
+ansible-playbook apache2.yml -b
+git add .
+git commit -m "d"
+git push
+ssh 172.31.35.77
+ssh 172.31.34.71
+vim cicdsofw.yml
+vim osinfo.yml
+asnible-playbook osinfo.yml -b
+ansible-playbook osinfo.yml -b
+vim osinfo.yml
+ansible-playbook osinfo.yml -b
+vim osinfo.yml
+ansible-playbook osinfo.yml -b
+vim osinfo.yml
+ansible-playbook osinfo.yml -b
+vim softasos.yml
+ansible-playbook softasos.yml -b
+vim softasos.yml
+ansible-playbook softasos.yml -b
+ansible all -m apt -a 'name=git state=absent' -b
+ansible-playbook softasos.yml -b
+git push
+git add .
+git commit -m "d"
+git push
+sudo vim /etc/ansible/hosts
+exit
+whoami
+sudo passwd ubuntu
+sudo vim /etc/ssh/sshd_config
+sudo service ssh restart
+cd playbooks/
+ls
+vim apache.yml
+ansible-playbook apache.yml -b
+cd
+cd /var/lib/apt/lists/lock
+cd /var/lib/apt
+ls
+cd lists/
+ls
+cd locks/
+ls
+ls -la lock
+sudo chmod o+R 770
+sudo chmod 770 o+R lock
+sudo chmod 770 lock
+ls -la lock
+sudo chmod 777 lock
+ls -la lock
+cd
+sudo rm /var/lib/apt/lists/lock
+sudo rm /var/lib/dpkg/lock
+sudo rm /var/lib/dpkg/lock-frontend
+sudo rm /var/cache/apt/archives/lock
+sudo dpkg --configure -a
+cd /var/lib/apt/lists
+ls
+cd 
+cd /var/lib/apt/lists/lock
+cd /var/lib/apt/lists
+ls
+cd /etc/ansible
+ls
+sudo vim ansible.cfg
+ssh keygen
+ssh-keygen
+ssh-copy-id ubuntu@172.31.43.196
+sudo vim /etc/ansible/hosts
+ansible all -a 'date'
+ansible all -m -a 'date'
+ansible all -a 'date'
+ssh-copy-id ubuntu@172.31.34.71
+ansible all -a 'date'
+cd playbooks/
+ls
+ssh 172.31.43.196
+vim practise.yml
+ansible-playbook practise.yml -b
+cd 
+cd /tmp
+ls
+cd 172.31.43.196
+ls
+pwd
+cd
+cd playbooks/
+vim practise.yml
+ansible-playbook practise.yml -b
+ssh 172.31.34.71 
+vim practise2.yml
+ansible-playbook practise2.yml -b
+vim practise2.yml
+ansible all -m apt -a 'name=tomcat9 state=absent purge=yes' -b
+ansible all -m apt -a 'name=tomcat9-admin state=absent purge=yes' -b
+ansible-playbook practise2.yml -b
+vim practise2.yml
+vim practise3.yml
+ansible-playbook practise3.yml --syntax-check
+ansible-playbook practise3.yml -b
+
+ansible all -m apt -a 'name=git state=absent' -b
+ansible-playbook practise3.yml -b
+vim practise1.yml
+vim practise.yml
+vim practise2.yml
+ansible-playbook practise2.yml --tags="tagged" -b
+ansible-playbook practise2.yml --tags="untagged" -b
+vim practise4.yml
+ansible-playbook practise4.yml -b
+vim practise4.yml
+ansible-playbook practise4.yml -b
+
+vim practise5.yml
+ansible-playobok practise5.yml -b
+ansible-playbook practise5.yml -b
+vim practise4.yml
+vim practise5.yml
+ansible-playbook practise5.yml -b
+ssh 172.31.43.196
+vim ch1.yml
+ansible-playbook pa1.yml -b
+vim pa1.yml
+ansible all -m apt -a 'name=apache2 state=absent' -b
+ansible-playbook pa1.yml
+vim pa1.yml
+ansible-playbook pa1.yml
+vim pa1.yml
+ansible-playbook pa1.yml
+vim practise6.yml
+ansible-playbook practise6.yml -b
+vim practise6.yml
+ansible-playbook practise6.yml -b
+vim practise6.yml
+ansible-playbook practise6.yml -b
+vim practise6.yml
+ansible-playbook practise6.yml -b
+vim practise7.yml
+anible-playbook practise7.yml
+ansible-playbook practise7.yml
+vim practise7.yml
+ansible-playbook practise7.yml
+vim practise7.yml
+ansible-playbook practise7.yml -b
+cd playbooks/
+git add .
+git commit -m "e"
+git push
