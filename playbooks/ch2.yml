@@ -1,0 +1,6 @@
+---
+- name: Change the file contant
+  copy:
+    content: "Hello Intelliqit"
+    dest: /var/www/html.index.html
+...      

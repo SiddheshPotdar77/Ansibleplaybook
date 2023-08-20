@@ -1,0 +1,12 @@
+---
+- name: execute all child playbook
+  hosts: all
+  gather_facts: false
+  become: yes
+  tasks:
+    - name: call all playbook
+      include: "{{item}}"
+      with_items:
+         - ch1.yml
+         - ch2.yml
+...           

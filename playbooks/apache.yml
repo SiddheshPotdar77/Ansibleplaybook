@@ -22,10 +22,6 @@
       uri:
         url: http://172.31.34.71
         status_code: 200
-    - name: check 2 url ressponse
-      uri:      
-        url: http://172.31.35.77
-        status_code: 200
 ...          
 
              

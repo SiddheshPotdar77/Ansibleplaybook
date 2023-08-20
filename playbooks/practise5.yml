@@ -1,0 +1,17 @@
+---
+- name: check if file is executable 
+  hosts: all
+  tasks:
+    - name: check file details
+      stat:
+        path: /home/ubuntu/gaga
+      register: b
+    - name: check if file is excecutable
+      debug:
+        var: b
+    - name: if file is executable then delete it
+      file:
+        name: /home/ubuntu/gaga
+        state: absent
+      when: b.stat.executable==true      
+...          

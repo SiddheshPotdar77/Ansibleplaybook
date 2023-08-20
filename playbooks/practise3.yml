@@ -1,0 +1,23 @@
+---
+- name: error handling in ansible
+  hosts: all
+  tasks:
+    - block:
+        - name: install git using apt
+          apt:
+            name: git
+            state: present
+            update_cache: yes
+      rescue:
+        - name: install git using yum
+          yum:
+            name: git
+            state: present
+            update_cache: yes
+      always:
+        - name: To print done
+          debug:
+             msg: "All done"
+...               
+
+

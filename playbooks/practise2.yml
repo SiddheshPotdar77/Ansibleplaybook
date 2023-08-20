@@ -1,0 +1,38 @@
+---
+- name: Implementing loops and handlers
+  hosts: all
+  tasks:
+    - name: Install tomcat
+      apt:
+        name: "{{item.a}}"
+        state: present
+        update_cache: "{{item.b}}"
+      with_items:
+        - {a: tomcat9, b: yes}
+        - {a: tomcat9-admin, b: no}
+      tags: Install tomcat    
+    - name: copy tomcat-users.xml file
+      copy:
+        src: tomcat-users.xml
+        dest: /etc/tomcat9
+      tags: copy file    
+      notify: Restart tomcat9
+  handlers:
+    - name: Restart tomcat9
+      service:
+        name: tomcat9
+        state: restarted
+      tags: restart    
+    - name: wait for few secons
+      pause:
+        seconds: 40      
+    - name: check url response
+      uri:
+        url: "{{item}}"
+        status_code: 200
+      with_items:
+        - http://172.31.34.71:8080
+        - http://172.31.43.196:8080
+...          
+            
+            
